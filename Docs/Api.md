@@ -53,5 +53,24 @@ POST {{host}}/auth/login
 #### Login Request
 
 ```json
+{
+  "email": "amichai@mantinband.com",
+  "password": "Amiko1232!"
+}
+```
 
+```js
+200 OK
+```
+
+#### Login Response
+
+```json
+{
+  "id": "39f1fc58-86b3-43fd-881b-ec54af9c3298",
+  "firstName": "Amichai",
+  "lastName": "Mantinband",
+  "email": "amichai@mantinband.com",
+  "token": "eyJhb..hbbQ"
+}
 ```
