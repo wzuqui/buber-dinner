@@ -9,7 +9,9 @@
     "**/*.crswap": true,
     "**/bin": true,
     "**/obj": true,
-    "**/.history": true
+    "**/.history": true,
+    "**/.vs": true,
+    "**/.vscode": true
   },
   "cSpell.words": ["Amichai", "Amiko", "Hmac", "Mantinband"]
 }
